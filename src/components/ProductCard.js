@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ToastNotification from "./ToastNotification";
 
 const ProductCard = ({ product, onAddToCart }) => {
   return (
@@ -30,6 +31,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         style={{padding:"10px 10px 10px 10px",outline:"none",border:"none",backgroundColor:"#3e650d",color:"#fff"}}
       >
         Add to Cart
+        {/* <ToastNotification/> */}
       </motion.button>
     </motion.div>
   {/* // ))} */}
